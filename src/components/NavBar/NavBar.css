@@ -1,0 +1,30 @@
+.navbar{
+   width: 50%;
+}
+
+.navbar .nav-list{
+   padding-left: 40px;
+   display: flex;
+   align-items: center;
+   list-style: none;
+   align-items: center;
+   gap:20px;
+}
+
+.navbar .nav-list .nav-item{
+   text-decoration: none;
+   cursor: pointer;
+   color: var(--white);
+   font-size: 1rem;
+   font-weight: 500;
+   transition: all 0.5s ease;
+   border: 10px solid transparent;
+}
+
+.navbar .nav-list .nav-item.active{
+   padding: 8px;
+   border: 2px solid var(--blue);
+   border-radius: 8px;
+   color: var(--white);
+   transition: all 0.7s ease;
+}
