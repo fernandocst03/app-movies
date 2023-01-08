@@ -1,0 +1,39 @@
+.trendingPreview-header-tv{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 40px;
+   align-items: center;
+   padding-top: 30px;
+}
+
+.trendingPreview-title{
+   font-size: 24px;
+   font-weight: 700;
+   color: var(--dark);
+}
+
+.trendingPreviewTv-link{
+   text-decoration: none;
+   border: 1px solid var(--blue);
+   padding: 8px 16px;
+   border-radius: 8px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   color: var(--white);
+   background-color: var(--blue);
+}
+
+.trendingPreviewTv-link:hover{
+   background-color: var(--blue-light);
+   color: var(--dark);
+}
+
+.trendingPreview-tvList{
+   display: flex;
+   gap: 16px;
+   width: 100%;
+   overflow-x: scroll;
+   padding: 20px 40px;
+}
